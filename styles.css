@@ -1,0 +1,33 @@
+@charset "utf-8";
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #0000FF;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	padding: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #00148E;
+}
+.active {
+	background-color: #FF0000;
+}
+body footer {
+	padding: 0;
+	text-align: bottom;
+}
+
+body
+{
+	background-color: #848C8E;
+}
